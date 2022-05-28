@@ -28,3 +28,9 @@ And i have a case of using the plugin with a shortcode that is supposed to inser
         {% outputMD %}
     {% endrenderTemplate %}
 ```
+
+## Output
+
+Here's the output
+
+![Test case showing the markdown being output as a string](https://github.com/brob/eleventy-reducedtest-render/blob/main/test-case.png?raw=true)
