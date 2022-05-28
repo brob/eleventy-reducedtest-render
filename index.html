@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% renderTemplate "md" %}
+    # I expect this to output an h1 and 2 list items
+    
+    * I am a list
+    * I am a list
+    {% endrenderTemplate %}
+
+    {% renderTemplate "md" %}
+    > I expect this to output the markdown from the shortcode
+        {% outputMD %}
+    {% endrenderTemplate %}
+</body>
+</html>
